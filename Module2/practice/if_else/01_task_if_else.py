@@ -3,7 +3,11 @@
 # Формат выходных данных: Требуется вывести тип числа текстом
 
 number = float(input())  # Считываем вещественное число
-if number > 0:
-    print("Положительное")
+# TODO: your code here
+
+
+number = float(input())  # Считываем вещественное число
+if number < 0:
+    print("1")
 else:
-    print("Отрицательное")
+    print("2")
